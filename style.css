@@ -1,0 +1,67 @@
+/* تحسين تصميم الصفحة */
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* الهيدر */
+header {
+  background: #a00000;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* الجداول */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background: #a00000;
+  color: white;
+}
+
+/* بطاقات اللاعبين */
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.player-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.player-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
